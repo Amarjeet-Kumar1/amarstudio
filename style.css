@@ -1,0 +1,720 @@
+body{
+	background-color: #1f244a;
+}
+::placeholder{
+	color: white;
+}
+/*header*/
+#s-header{
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+#s-header div{
+	display: inline-block;
+}
+.h-logo{
+	position: absolute;
+	top: 15%;
+	left: 2%;
+}
+.h-logo img{
+	height: 60%;
+	width: 20%;
+	object-fit: contain;
+}
+.fav{
+	position: absolute;
+	left: 20%;
+	color: blue;
+	}
+.fav p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+}
+.h-search-bar{
+	position: absolute;
+	top: 25%;
+	right: 18%;
+}
+
+.h-search-bar form input{
+	width: 100%;
+	height: 20px;
+	border: none;
+	border-radius: 10px;
+	background: transparent;
+	background-image: url(images/search.png);
+	background-color: #334c7f;
+	background-position: 5px 2px;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+	padding-left: 15%;
+	color: white;
+
+	
+}
+
+.microphone-icon{
+	position: absolute;
+	top: 15%;
+	right: -10%;
+}
+.h-right{
+	position: absolute;
+	top: 10%;
+	right: 1%;
+}
+.not-icon{
+	position: absolute;
+	top: 30%;
+	left: -70%;
+
+	}
+.profile{
+	height: 2.3rem;
+	width: 2.3rem;
+	border: 1px solid blue;
+	border-radius: 50%;
+}
+.profile img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: fill;
+}
+
+/*main content*/
+.recomendation{
+	display: inline-block;
+	width: 53%;
+	margin-left: 15%;
+}
+/*poster*/
+.poster{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 35vh;
+}
+.xl-div{
+	height: 60%;
+	width: 30%;
+
+}
+.xl-div img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.xl-div:hover{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	left: 15%;
+	top: 10%;
+}
+/*title*/
+.title{
+	height: 2vh;
+	width: 100%;
+
+}
+.title h2{
+	padding-left: 0.5rem;
+	font-family: sans-serif;
+	color: white;
+	font-size: 0.8rem;
+}
+/*release*/
+.release{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 25vh;
+}
+.l-div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 45%;
+	width: 48%;
+
+}
+.r-photo{
+	height: 90%;
+	width: 20%;
+}
+.r-photo img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.r-title{
+	height: 60%;
+	width: 70%;
+}
+.r-title h2{
+	color: white;
+	font-size: 0.8rem;
+	font-family:sans-serif ;
+}
+.r-title h3{
+	color: white;
+	font-size: 0.6rem;
+	font-family:sans-serif ;
+	font-weight: 300;
+}
+.r-dot{
+	height: 90%;
+	width: 5%;
+}
+.r-dot h4{
+	color: white;
+	font-size: 0.5rem;
+	font-family:sans-serif ;
+	font-weight: 100;
+}
+
+
+/*artists*/
+.artists{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 20vh;
+}
+.cm-div{
+	position: relative;
+	height: 70%;
+	width: 12%;
+	border-radius: 50%;
+}
+.cm-div img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: fill;
+}
+.name{
+	height: 20%;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	bottom: -10%;
+}
+.name h3{
+	color: white;
+	font-size: 0.7rem;
+	font-family:sans-serif ;
+}
+.center-align{
+	text-align: center;
+}
+/*genre*/
+.genre{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 15vh;
+	background-color: #2d2d60;
+}
+.cs-div{
+	position: relative;
+	height: 75%;
+	width: 10%;
+	border-radius: 50%;
+}
+.cs-div img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	object-fit: fill;
+}
+.g-name{
+	height: 20%;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 40%;
+}
+.g-name h3{
+	color: white;
+	font-size: 0.6rem;
+	font-family:sans-serif ;
+}
+/*event*/
+.event{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 20vh;
+}
+
+.m-div{
+	position: relative;
+	height: 75%;
+	width: 30%;
+}
+.m-div img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.e-name{
+	height: 20%;
+	width: 80%;
+	position: absolute;
+	left: 10%;
+	top: 40%;
+}
+.e-name h3{
+	color: white;
+	font-size: 0.8rem;
+	font-family:sans-serif ;
+}
+
+/*latest english*/
+.latest{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 20vh;
+}
+
+.s-div{
+	position: relative;
+	height: 60%;
+	width: 10%;
+}
+.s-div img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.l-title{
+	padding-left: 5%;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: -32%;
+	height: auto;
+	width: 100%;
+
+}
+.l-title h2{
+	margin: 0px;
+	color: white;
+	font-size: 0.8rem;
+	font-family:sans-serif ;
+}
+.l-title h3{
+	margin: 0px;
+	color: white;
+	font-size: 0.6rem;
+	font-family:sans-serif ;
+	font-weight: 300;
+}
+.english{
+
+}
+.hindi{
+	}
+
+
+/*playlsit*/
+.playlist{
+	display: inline-block;
+	width: 15%;
+	margin-right: 15%;
+	vertical-align: top;
+	
+}
+.p-header{
+	position: relative;
+	height: 7.5vh;
+}
+.p-header h1{
+	display: inline-block;
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+
+}
+.p-select{
+	display: inline-block;
+	color: white;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	background: transparent;
+	border: none;
+}
+.p-select option{
+	background-color: gray;
+}
+
+.song{
+	height: 10vh ;
+	position: relative;
+}
+.song div{
+	display: inline-block;
+}
+.song-img{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	height: 80%;
+	width: 25%;
+	margin-bottom: 5%;
+
+}
+
+.song-img img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.song-img:hover{
+	transform: scale(1.1);
+}
+
+.song-dis{
+	position: absolute;
+	vertical-align: top;
+	top: 20%;
+	left: 35%;
+	width: auto;
+}
+.song-name{
+		font-size: 0.8rem;
+		color: white;
+		font-family: Sans-serif;
+		margin: 2%;
+
+}
+.artist{
+		font-size: 0.5rem;
+		color: white;
+		font-weight: 200;
+		font-family: Sans-serif;
+		margin: 0px;
+}
+.like-icon{
+	position: absolute;
+	top: 30%;
+	right: 2%;
+}
+
+.like-icon i:hover{
+	transform: scale(1.3);
+	color: red;
+	
+}
+
+/*footer*/
+.s-footer{
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 8vh;
+	padding-top: 0.8vh;
+	background-color: #3a3c4a;
+}
+.f-content{
+	width: 70%;
+	height: 85%;
+	margin: auto;
+	/*background-color: white;*/
+	display: flex;
+	justify-content: space-between;
+}
+/*left section*/
+.f-left{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 15%;
+	/*background-color: yellow;*/
+}
+.f-image{
+	height: 90%;
+	width: 30%;
+}
+.f-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.f-song-dis{
+	height: 70%;
+	width: 30%;
+}
+.left-icon{
+	padding-top: 8%;
+	height: 100%;
+	width: 25%;
+}
+
+.f-mid{
+	width: 50%;
+	/*background-color: yellow;*/
+
+}
+.f-right{
+	width: 15%;
+	/*background-color: yellow;*/
+
+}
+
+
+
+
+
+
+
+
+
+/*icon color*/
+.lightwhite-icon{
+	color: #c8c7d8;
+
+}
+.white-icon{
+	color: white;
+}
+/*hover zoom*/
+.hover-zoom:hover{
+	transform: scale(1.1);
+
+}
+
+
+
+/*second page*/
+/*playlist.html*/
+/*main content*/
+
+.playlist-details{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5vh;
+	height: 40vh;
+	background-color: #161543;
+}
+.playlist-image{
+	height: 100%;
+	width: 35%;
+	border-radius: 0% 0% 50% 50%;
+}
+.playlist-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 0% 0% 50% 50%;
+	object-fit: fill;
+}
+.playlist-dis{
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 60%;
+	height: 70%;
+}
+.play-up{
+	position: relative;
+	width: 100%;
+	height: 20%;
+
+}
+.play-title{
+	position: absolute;
+	left: 0%;
+}
+.play-title h2{
+	font-family: sans-serif;
+	font-weight: 700;
+	color: white;
+	margin: 0%;
+}
+.play-title h3{
+	font-family: sans-serif;
+	font-size: 0.6rem;
+	font-weight: 200;
+	color: white;
+	margin: 0%;
+}
+.follower{
+	position: absolute;
+	right: 5%;
+}
+.follower h4{
+	font-family: sans-serif;
+	font-size: 0.6rem;
+	font-weight: 200;
+	color: white;
+}
+
+.play-mid{
+	width: 90%;
+	height: 50%;
+	color: white;
+	font-size: 0.7rem;
+	
+}
+
+.play-down{
+	height: 20%;
+	width: 100%;
+
+}
+.play-all{
+	height: 60%;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	color: white;
+	background-image: linear-gradient(to right, pink, blue);
+
+}
+.play-all h5{
+	margin-top: 5%;
+}
+.play-all:hover{
+	transform: scale(1.2);
+	background-image: linear-gradient(to right, blue, pink);
+}
+
+.follow{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	color: white;
+	margin: 0%;
+}
+.follow:hover{
+	transform: scale(1.2);
+	text-decoration: underline;
+
+}
+
+.play-last{
+	height: 10%;
+	color: white;
+	font-size: 0.5rem;
+	font-family: sans-serif;
+}
+
+/*playlist all*/
+.playlist-all{
+	margin-top: 3vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.playlist-song{
+	height: 6vh ;
+	position: relative;
+	background-color: #32374d;
+	margin-bottom: 1vh;
+}
+
+.p-song div{
+	display: inline-block;
+}
+.s-no{
+	position: absolute;
+	left: 1%;
+	top: 10%;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 0.6rem;
+}
+.p-song-img{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	height: 80%;
+	width: 5%;
+}
+
+.p-song-img img{
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.p-song-img:hover{
+	transform: scale(1.1);
+}
+
+.p-song-dis{
+	width: 20%;
+	position: absolute;
+	vertical-align: top;
+	top: 18%;
+	left: 12%;
+}
+.p-song-name{
+		font-size: 0.8rem;
+		color: white;
+		font-family: Sans-serif;
+		margin: 1%;
+
+}
+.p-artist{
+		font-size: 0.5rem;
+		color: white;
+		font-weight: 200;
+		font-family: Sans-serif;
+		margin: 0px;
+}
+.p-like-icon{
+	position: absolute;
+	top: 30%;
+	right: 6%;
+}
+
+.p-like-icon i:hover{
+	transform: scale(1.3);
+	color: red;
+	
+}
+
+.p-plus-icon{
+	position: absolute;
+	top: 30%;
+	right: 2%;
+}
+.p-plus-icon:hover{
+	transform: scale(1.3);
+}
+
+
+/*aside*/
+
+.similar-artists{
+	margin-top: 5vh;
+	height: 40vh;
+}
+.p-header h3{
+	font-weight: 200;
+	font-size: 0.8rem;
+	display: inline-block;
+	color: white;
+	position: absolute;
+	right: 5%;
+	top: 25%;
+}
+
+	
+
+
